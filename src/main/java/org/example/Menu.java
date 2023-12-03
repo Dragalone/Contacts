@@ -36,7 +36,6 @@ public class Menu {
         Scanner scanner = new Scanner(System.in);
         int option = 1;
         while(option!=5){
-            System.out.flush();
             printMenu();
             try {
                 option = scanner.nextInt();
